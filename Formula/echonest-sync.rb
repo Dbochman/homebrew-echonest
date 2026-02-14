@@ -12,10 +12,11 @@ class EchonestSync < Formula
 
   def install
     venv = virtualenv_create(libexec, "python3.12")
-    # Install the package with all deps using wheels where available
-    pkg = buildpath/"echonest-sync"
-    system libexec/"bin/pip", "install", "--prefer-binary", "#{pkg}[mac]"
-    # Link entry points into Homebrew bin
+    # Install deps first, then the package itself
+    system libexec/"bin/pip", "install", "-v", "--prefer-binary",
+           "requests", "sseclient-py", "click", "pyyaml", "keyring",
+           "pystray", "pillow", "rumps"
+    system libexec/"bin/pip", "install", "--no-deps", buildpath/"echonest-sync"
     bin.install_symlink Dir[libexec/"bin/echonest-sync*"]
   end
 
