@@ -113,9 +113,7 @@ class EchonestSync < Formula
   def install
     venv = virtualenv_create(libexec, "python3.12")
     venv.pip_install resources
-    venv.pip_install buildpath/"echonest-sync"
-    bin.install_symlink libexec/"bin/echonest-sync"
-    bin.install_symlink libexec/"bin/echonest-sync-app"
+    venv.pip_install_and_link buildpath/"echonest-sync"
   end
 
   test do
