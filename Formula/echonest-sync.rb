@@ -3,8 +3,8 @@ class EchonestSync < Formula
 
   desc "CLI agent that syncs local Spotify playback with an EchoNest server"
   homepage "https://github.com/Dbochman/EchoNest"
-  url "https://github.com/Dbochman/EchoNest/archive/refs/tags/sync-v0.6.0.tar.gz"
-  sha256 "2bcbae4002f9aaa8af7cca93b922b6ae68adecea0d7006637c5eb0d507808270"
+  url "https://github.com/Dbochman/EchoNest/archive/refs/tags/sync-v0.6.1.tar.gz"
+  sha256 "8b205ac6b0d6fc8aa96b3a1abf200e3de170e76182612ed52e8398a8722a9292"
   license "MIT"
 
   depends_on "python@3.12"
