@@ -15,8 +15,8 @@ class EchonestSync < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/96/11/d8ec6a1a3b1d383a00d341a80f858a89d8598f335a9e782bed4b729d594e/charset-normalizer-3.4.4.tar.gz"
-    sha256 "62d8debb6f21d53fac1ffb0c1895d4daf3b69d8003bea3049725d5adccb8b7e7"
+    url "https://files.pythonhosted.org/packages/13/69/33ddede1939fdd074bce5434295f38fae7136463422fe4fd3e0e89b98062/charset_normalizer-3.4.4.tar.gz"
+    sha256 "94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a"
   end
 
   resource "click" do
@@ -55,8 +55,8 @@ class EchonestSync < Formula
   end
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/d7/30/011ac4aa0c6e21eb8a7403cea3a2cd37fc88e1ea23a6f6e01cbe6a3ede0d/PyYAML-6.0.3.tar.gz"
-    sha256 "073de844e9e2555f37556660d81bc52ff16ef1a0e22b29da3f20fc51d25b76ee"
+    url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+    sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
   end
 
   resource "requests" do
