@@ -17,13 +17,12 @@ echonest-sync login
 
 # Start syncing
 echonest-sync
-
-# Or launch the desktop tray app
-echonest-sync-app
 ```
 
 ## What is echonest-sync?
 
-A desktop agent that syncs your local Spotify playback with an EchoNest server. When someone queues a song on EchoNest, it automatically plays on your Spotify.
+A CLI agent that syncs your local Spotify playback with an EchoNest server. When someone queues a song on EchoNest, it automatically plays on your Spotify.
+
+For the desktop tray app (with menu bar icon, search, and airhorns), download the `.dmg` or `.exe` from [GitHub Releases](https://github.com/Dbochman/EchoNest/releases).
 
 See the [EchoNest Sync docs](https://github.com/Dbochman/EchoNest/tree/main/echonest-sync/docs) for more details.
